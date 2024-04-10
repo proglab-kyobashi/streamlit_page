@@ -11,11 +11,12 @@ st.divider()
 st.header("requirements.txtの作成",divider="gray")
 st.write("pipで追加した外部ライブラリを外部サーバーで扱えるようにする")
 st.write("カレントディレクトリの直下に「requirements.txt」を作成して、その中に以下の例のように追加する")
+st.error("opencvについては「opencv-python」の代わりに「opencv-python-headless」を入れないといけない点に注意！")
 t = """
 pandas==2.2.1
 numpy==1.26.2
 matplotlib==3.8.3
-opencv-python==4.9.0.80
+opencv-python-headless==4.6.0.66
 Pillow==9.5.0
 """
 st.code(t, language="textile")
