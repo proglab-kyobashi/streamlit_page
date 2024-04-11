@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("メインページ")
 
-st.write("ここではstraemlitの各パーツについて使い方の例と共に紹介")
+st.write("ここではstreamlitの各パーツについて使い方の例と共に紹介")
 st.write("各使い方についてはサイドバーから別ページに飛んで確認してください")
 st.divider()
 st.header("まずはpipでインストールする")
